@@ -1,0 +1,128 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+#nav{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 15px;
+}
+
+#nav a{
+	color: black;
+    background-color: transparent;
+    text-decoration: none;
+	margin-right: 20px;
+}
+
+#nav a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#nav a img{
+	width: 27.5px;
+	height: 27.5px;
+	border-radius: 50%;
+	
+}
+
+#middle{
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+ 
+#logo{
+	text-align: center;
+}
+
+#logo img{
+	width: 350px;
+	height: 120px;
+}
+
+#searchbarcontainer{
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+}
+
+#searchbar{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: 0;
+	padding-left: 30px;
+	padding-right: 30px; 
+	width: 350px;
+	border-radius: 18px;
+	border: 1px solid #c4c4c4;
+}
+
+#search, #voice{
+	top: 0;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#search{
+	left: 15px;
+}
+
+#voice{
+	right: 15px;
+}
+
+#searchbar:hover {
+	box-shadow: 0 0 5px 2px #EEEEEE;
+}
+#buttons{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.button{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px 10px;
+	cursor: pointer;
+	background: #eeeeee;
+	border-radius: 3px;
+	border:1px solid transparent;
+}
+
+.button:hover{
+	border:1px solid #B4B4B4;
+	box-shadow: 0 0 5px 2px #EEEEEE;
+}
+#links{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#links a{
+	text-decoration: none;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+#footer-content p, a{
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+#footer-content {
+	background: #eeeeee;
+	border: 0.5px solid grey;
+}
